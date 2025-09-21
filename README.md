@@ -9,16 +9,18 @@ Deployment **n8n** (workflow automation) dengan **PostgreSQL** menggunakan Docke
 - Siap reverse proxy (Caddy/Nginx/Traefik/Cloudflare Tunnel)
 
 ## 📂 Struktur Direktori
+## 📂 Struktur Direktori
+```bash
 N8N/
 ├── docker-compose.yml
 ├── .env
 ├── init-data.sh
 ├── data/
-│ ├── n8n/
-│ └── postgres/
+│   ├── n8n/
+│   └── postgres/
 └── docs/
-└── instalasi.md
-
+    └── instalasi.md
+```
 
 ## ⚙️ Prasyarat
 - Docker & Docker Compose
